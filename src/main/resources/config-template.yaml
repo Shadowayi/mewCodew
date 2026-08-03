@@ -1,0 +1,12 @@
+providers:
+  - name: anthropic-default
+    protocol: anthropic
+    model: claude-sonnet-4-20250514
+    base_url: https://api.anthropic.com
+    api_key: YOUR_ANTHROPIC_API_KEY
+    thinking: false
+  - name: openai-default
+    protocol: openai
+    model: gpt-4o-mini
+    base_url: https://api.openai.com/v1
+    api_key: YOUR_OPENAI_API_KEY
